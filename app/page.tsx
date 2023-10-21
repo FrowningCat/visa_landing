@@ -2,8 +2,15 @@ import Image from 'next/image';
 
 export default function Home() {
     return (
-        <div>
-            <h1>Hello word</h1>
+        <div className="landing">
+            <header className="header"></header>
+            <main className="main"></main>
+            <footer className="footer">
+                <h1>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sequi, minima.
+                </h1>
+            </footer>
         </div>
     );
 }

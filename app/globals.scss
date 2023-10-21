@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500;600;700&family=Noto+Sans:wght@300;400;500;700&family=Roboto&display=swap');
+
+$mainTextColor: #404040;
+$additionalTextColor: #7a7a7a;
+$buttonTextColor: #fff;
+$selectedTextColor: #0052b4;
+$mainBackgroundColor: #dfe8eb;
+$footerBackgroundColor: #081627;
+
+$mainFontFamily: 'Manrope';
+$additionalFontFamily: 'Inter';
+
+$mainSizeText: 600;
+$additionalSizeText: 400;
+$titleSizeText: 700;
+
+$mainWeightText: 16px;
+$titleWeightText: 44px;
+$headingWeightText: 24px;
+$explanatoryWeightText: 18px;
+$footerWeightText: 14px;
+$footerOfferWeightText: 12px;
+
+$headerLineHeightText: 21.86px;
+$buttonLineHeightText: 20px;
+$titleLineHeightText: 53.02px;
+$headingLineHeightText: 36.5px;
+$explanatoryLineHeightText: 25.2px;
+$footerLineHeightText: 19.12px;
+$footerOfferHeightText: 16.39px;
+
+.landing {
+    margin: 0;
+    padding: 0;
+    font-family: $mainFontFamily;
+    color: $mainTextColor;
+}
+
+.header {
+    font-size: $mainWeightText;
+    font-weight: $mainSizeText;
+    line-height: $headerLineHeightText;
+}
+
+.footer {
+    font-size: $footerWeightText;
+    line-height: $footerLineHeightText;
+}
