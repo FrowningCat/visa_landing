@@ -2,8 +2,11 @@
 
 $mainTextColor: #404040;
 $additionalTextColor: #7a7a7a;
+$rareTextColor: #808080;
 $buttonTextColor: #fff;
 $selectedTextColor: #0052b4;
+$buttonColor: #0052b4;
+$headerBackgroundColor: #fff;
 $mainBackgroundColor: #dfe8eb;
 $footerBackgroundColor: #081627;
 
@@ -36,10 +39,58 @@ $footerOfferHeightText: 16.39px;
     color: $mainTextColor;
 }
 
+.link:hover {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .header {
+    height: 60px;
+    display: flex;
+    background-color: $headerBackgroundColor;
+    filter: drop-shadow(0px 4px 4px rgba(219, 219, 219, 25%));
     font-size: $mainWeightText;
     font-weight: $mainSizeText;
     line-height: $headerLineHeightText;
+    &__block {
+        height: 24px;
+        width: 319px;
+        display: flex;
+        gap: 40px;
+        margin-top: 18px;
+        margin-left: 706px;
+    }
+    &__imgFlag {
+        width: 48px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    &__tg {
+        width: 152px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    &__button {
+        height: 36px;
+        width: 161px;
+        display: flex;
+        color: $buttonTextColor;
+        background: $buttonColor;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 7px rgba(000, 000, 000, 24%));
+        margin-top: 12px;
+        margin-left: 46px;
+        align-items: center;
+        gap: 10px;
+        font-weight: $footerWeightText;
+        line-height: $buttonLineHeightText;
+    }
 }
 
 .footer {
