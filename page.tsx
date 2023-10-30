@@ -8,6 +8,7 @@ import clipboard from '../public/clipboard.png';
 import bg from '../public/bg.png';
 import city from '../public/city.png';
 import iPhone from '../public/iPhone.png';
+import vectorTg from '../public/vectorTg.png';
 
 export default function Home() {
     return (
@@ -177,6 +178,22 @@ export default function Home() {
                         </div>
                     </div>
                     <Image src={iPhone} alt="iPhone" className="main__iPhone" />
+                    <div className="main__questions">
+                        <div className="main__title">Остались вопросы?</div>
+                        <div className="main__questionsMain">
+                            <div className="main__questionsText">
+                                Напишите нам в телеграм
+                            </div>
+                            <div className="main__questionsButton">
+                                <Image src={vectorTg} alt="vectorTg" />
+                                <text className="main__questionsButtonText">
+                                    <Link href="https://t.me/Frowning_Cat">
+                                        Чат поддержки
+                                    </Link>
+                                </text>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </main>
             <footer className="footer">

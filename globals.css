@@ -203,9 +203,9 @@ a {
 }
 .main__foooter {
   background-color: #dfe8eb;
-  height: 2035px;
   position: relative;
   margin-top: -35px;
+  height: 2035px;
 }
 .main__submissionOfBocuments {
   display: grid;
@@ -250,6 +250,41 @@ a {
   margin-left: 925px;
   margin-top: 50px;
   pointer-events: none;
+}
+.main__questions {
+  display: grid;
+  gap: 40px;
+  margin-left: 510px;
+  margin-top: 100px;
+  width: 420px;
+  justify-content: center;
+}
+.main__questionsMain {
+  display: grid;
+  gap: 20px;
+  width: 305px;
+  justify-content: center;
+  margin: auto;
+}
+.main__questionsText {
+  font-size: 24px;
+  line-height: 36.5px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.main__questionsButton {
+  align-items: center;
+  display: flex;
+  gap: 21px;
+  border-radius: 12px;
+  padding: 18px 68px;
+  color: #fff;
+  background: linear-gradient(#37bbfe, #007dbb);
+}
+.main__questionsButtonText {
+  font-size: 16px;
+  line-height: 21.86px;
+  color: #fff;
 }
 
 .footer {
