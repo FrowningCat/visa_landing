@@ -104,6 +104,10 @@ a {
         line-height: $buttonLineHeightText;
         gap: 10px;
         padding-left: 16px;
+        transition: background-color 1s;
+    }
+    &__button:hover {
+        background-color: #bdc0c3;
     }
 }
 
@@ -167,9 +171,14 @@ a {
         color: $headerBackgroundColor;
         justify-content: center;
         line-height: $buttonLineHeightText;
+        transition: background-color 1s;
+    }
+    &__topButton:hover {
+        background-color: #bdc0c3;
     }
     &__bg {
         width: 100%;
+        pointer-events: none;
     }
     &__info {
         display: grid;
@@ -225,6 +234,7 @@ a {
     &__city {
         margin-top: -20px;
         width: 100%;
+        pointer-events: none;
     }
     &__foooter {
         background-color: $mainBackgroundColor;
@@ -274,6 +284,7 @@ a {
     &__iPhone {
         margin-left: 925px;
         margin-top: 50px;
+        pointer-events: none;
     }
 }
 
