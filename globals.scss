@@ -5,6 +5,7 @@ $additionalTextColor: #7a7a7a;
 $rareTextColor: #808080;
 $buttonTextColor: #fff;
 $selectedTextColor: #0052b4;
+$numberBackgroundColor: #b5d7ff;
 $buttonColor: #0052b4;
 $headerBackgroundColor: #fff;
 $mainBackgroundColor: #dfe8eb;
@@ -32,9 +33,12 @@ $explanatoryLineHeightText: 25.2px;
 $footerLineHeightText: 19.12px;
 $footerOfferHeightText: 16.39px;
 
-.landing {
+* {
     margin: 0;
     padding: 0;
+}
+
+.landing {
     font-family: $mainFontFamily;
     color: $mainTextColor;
 }
@@ -165,7 +169,7 @@ a {
         line-height: $buttonLineHeightText;
     }
     &__bg {
-        width: 1440px;
+        width: 100%;
     }
     &__info {
         display: grid;
@@ -183,7 +187,7 @@ a {
     }
     &__title {
         line-height: $titleLineHeightText;
-        font-weight: $additionalSizeText;
+        font-weight: $titleSizeText;
         font-size: $titleWeightText;
         letter-spacing: -2px;
     }
@@ -218,8 +222,58 @@ a {
         font-weight: $additionalSizeText;
         color: $additionalTextColor;
     }
-    &__site {
+    &__city {
         margin-top: -20px;
+        width: 100%;
+    }
+    &__foooter {
+        background-color: $mainBackgroundColor;
+        height: 2035px;
+        position: relative;
+        margin-top: -35px;
+    }
+    &__submissionOfBocuments {
+        display: grid;
+        position: absolute;
+        width: 556px;
+        gap: 68px;
+        margin-left: 208px;
+        margin-top: 25px;
+    }
+    &__submissionOfBocumentsStages {
+        display: grid;
+        gap: 16px;
+    }
+    &__submissionOfBocumentsStage {
+        display: flex;
+        gap: 11px;
+    }
+    &__stageDiv {
+        display: grid;
+        gap: 8px;
+    }
+    &__stageNumber {
+        display: flex;
+        background-color: $numberBackgroundColor;
+        padding: 8px 15px;
+        height: 22px;
+        justify-content: center;
+        border-radius: 17px;
+    }
+    &__stageTitle {
+        font-size: $headingWeightText;
+        line-height: $headingLineHeightText;
+        font-weight: $titleSizeText;
+    }
+    &__stageText {
+        font-size: $mainWeightText;
+        line-height: $explanatoryLineHeightText;
+        font-weight: $additionalSizeText;
+        color: $additionalTextColor;
+    }
+    &__iPhone {
+        margin-left: 925px;
+        margin-top: 50px;
     }
 }
 

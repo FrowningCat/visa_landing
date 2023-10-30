@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;500;600;700&family=Noto+Sans:wght@300;400;500;700&family=Roboto&display=swap");
-.landing {
+* {
   margin: 0;
   padding: 0;
+}
+
+.landing {
   font-family: "Manrope";
   color: #404040;
 }
@@ -131,7 +134,7 @@ a {
   line-height: 20px;
 }
 .main__bg {
-  width: 1440px;
+  width: 100%;
 }
 .main__info {
   display: grid;
@@ -149,7 +152,7 @@ a {
 }
 .main__title {
   line-height: 53.02px;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 44px;
   letter-spacing: -2px;
 }
@@ -184,8 +187,58 @@ a {
   font-weight: 400;
   color: #7a7a7a;
 }
-.main__site {
+.main__city {
   margin-top: -20px;
+  width: 100%;
+}
+.main__foooter {
+  background-color: #dfe8eb;
+  height: 2035px;
+  position: relative;
+  margin-top: -35px;
+}
+.main__submissionOfBocuments {
+  display: grid;
+  position: absolute;
+  width: 556px;
+  gap: 68px;
+  margin-left: 208px;
+  margin-top: 25px;
+}
+.main__submissionOfBocumentsStages {
+  display: grid;
+  gap: 16px;
+}
+.main__submissionOfBocumentsStage {
+  display: flex;
+  gap: 11px;
+}
+.main__stageDiv {
+  display: grid;
+  gap: 8px;
+}
+.main__stageNumber {
+  display: flex;
+  background-color: #b5d7ff;
+  padding: 8px 15px;
+  height: 22px;
+  justify-content: center;
+  border-radius: 17px;
+}
+.main__stageTitle {
+  font-size: 24px;
+  line-height: 36.5px;
+  font-weight: 700;
+}
+.main__stageText {
+  font-size: 16px;
+  line-height: 25.2px;
+  font-weight: 400;
+  color: #7a7a7a;
+}
+.main__iPhone {
+  margin-left: 925px;
+  margin-top: 50px;
 }
 
 .footer {

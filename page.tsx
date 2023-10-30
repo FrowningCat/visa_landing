@@ -6,7 +6,8 @@ import arrow from '../public/arrow.png';
 import telegram from '../public/telegram.png';
 import clipboard from '../public/clipboard.png';
 import bg from '../public/bg.png';
-import site from '../public/site.png';
+import city from '../public/city.png';
+import iPhone from '../public/iPhone.png';
 
 export default function Home() {
     return (
@@ -114,7 +115,69 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-                <Image src={site} alt="site" className="main__site" />
+                <Image src={city} alt="city" className="main__city" />
+                <div className="main__foooter">
+                    <div className="main__submissionOfBocuments">
+                        <div className="main__title">Подача документов</div>
+                        <div className="main__submissionOfBocumentsStages">
+                            <div className="main__submissionOfBocumentsStage">
+                                <div className="main__stageNumber">1</div>
+                                <div className="main__stageDiv">
+                                    <div className="main__stageTitle">
+                                        Подаете документы на визу
+                                    </div>
+                                    <div className="main__stageText">
+                                        Заполняете анкету на нашем сайте.
+                                        Необходимые документы: паспорт,
+                                        загранпаспорт. Выбираете удобное
+                                        консульство для собеседования
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="main__submissionOfBocumentsStage">
+                                <div className="main__stageNumber">2</div>
+                                <div className="main__stageDiv">
+                                    <div className="main__stageTitle">
+                                        Оплачиваете
+                                    </div>
+                                    <div className="main__stageText">
+                                        Оплатить услуги можно с любой российской
+                                        карты (мир, виза, оплата через сайт)
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="main__submissionOfBocumentsStage">
+                                <div className="main__stageNumber">3</div>
+                                <div className="main__stageDiv">
+                                    <div className="main__stageTitle">
+                                        Ожидаете ответа
+                                    </div>
+                                    <div className="main__stageText">
+                                        Ожидание может занять от 10 дней. За
+                                        дополнительную плату{' '}
+                                        <text className="additionalColor additionalWeight">
+                                            можно ускорить продвижение в очереди
+                                        </text>{' '}
+                                        ($450, от 1 дня)
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="main__submissionOfBocumentsStage">
+                                <div className="main__stageNumber">4</div>
+                                <div className="main__stageDiv">
+                                    <div className="main__stageTitle">
+                                        Виза готова!
+                                    </div>
+                                    <div className="main__stageText">
+                                        Уведомление придет вам на почту, можете
+                                        смело отправляться в путешествие!
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <Image src={iPhone} alt="iPhone" className="main__iPhone" />
+                </div>
             </main>
             <footer className="footer">
                 <div className="footer__divText1">
