@@ -105,13 +105,14 @@ a {
 
 .main {
     &__topDiv {
+        position: absolute;
         width: 484px;
         display: grid;
         gap: 40px;
         margin-top: 125px;
         margin-left: 208px;
     }
-    &__mainClipboard {
+    &__Clipboard {
         display: flex;
         height: 36px;
         width: 36px;
@@ -162,6 +163,63 @@ a {
         color: $headerBackgroundColor;
         justify-content: center;
         line-height: $buttonLineHeightText;
+    }
+    &__bg {
+        width: 1440px;
+    }
+    &__info {
+        display: grid;
+        gap: 61px;
+        width: 1024px;
+        margin-left: 208px;
+        margin-top: 115px;
+    }
+    &__infoTitle {
+        display: grid;
+        gap: 16px;
+        width: 701px;
+        margin: auto;
+        text-align: center;
+    }
+    &__title {
+        line-height: $titleLineHeightText;
+        font-weight: $additionalSizeText;
+        font-size: $titleWeightText;
+        letter-spacing: -2px;
+    }
+    &__infoText {
+        line-height: $headingWeightText;
+        font-weight: $titleSizeText;
+        font-size: $buttonLineHeightText;
+        color: $rareTextColor;
+        width: 600px;
+        margin: auto;
+    }
+    &__infoBlock {
+        display: flex;
+        gap: 16px;
+    }
+    &__infoDiv {
+        display: grid;
+        gap: 16px;
+        background-color: $headerBackgroundColor;
+        justify-items: center;
+        text-align: center;
+        filter: drop-shadow(0px 4px 7px rgba(201, 201, 201, 25%));
+        padding: 30px 24px;
+    }
+    &__infoBlockTitle {
+        line-height: $headingLineHeightText;
+        font-weight: $titleSizeText;
+        font-size: $headingWeightText;
+    }
+    &__infoBlockText {
+        line-height: $explanatoryLineHeightText;
+        font-weight: $additionalSizeText;
+        color: $additionalTextColor;
+    }
+    &__site {
+        margin-top: -20px;
     }
 }
 

@@ -5,6 +5,8 @@ import chevronDownGray from '../public/chevron.down.gray.png';
 import arrow from '../public/arrow.png';
 import telegram from '../public/telegram.png';
 import clipboard from '../public/clipboard.png';
+import bg from '../public/bg.png';
+import site from '../public/site.png';
 
 export default function Home() {
     return (
@@ -37,7 +39,7 @@ export default function Home() {
                 <div className="main__topDiv">
                     <div className="main__topBlok">
                         <div className="main__typeOfQuestionnaire">
-                            <div className="main__mainClipboard">
+                            <div className="main__Clipboard">
                                 <Image src={clipboard} alt="clipboard" />
                             </div>
                             <text> Анкета DS-160</text>
@@ -62,6 +64,57 @@ export default function Home() {
                         <Image src={arrow} alt="arrow" />
                     </div>
                 </div>
+                <Image src={bg} alt="bg" className="main__bg" />
+                <div className="main__info">
+                    <div className="main__infoTitle">
+                        <text className="main__title">
+                            Подача документов на визу США
+                        </text>
+                        <text className="main__infoText">
+                            Разработанный ИИ-алгоритм ускорения записи и удобный
+                            интерфейс для заполнения анкеты
+                        </text>
+                    </div>
+                    <div className="main__infoBlock">
+                        <div className="main__infoDiv">
+                            <div className="main__Clipboard">
+                                <Image src={clipboard} alt="clipboard" />
+                            </div>
+                            <div className="main__infoBlockTitle">EASY</div>
+                            <div className="main__infoBlockText">
+                                Простое заполнение формы DS-160 с подсказками
+                            </div>
+                        </div>
+                        <div className="main__infoDiv">
+                            <div className="main__Clipboard">
+                                <Image src={clipboard} alt="clipboard" />
+                            </div>
+                            <div className="main__infoBlockTitle">FAST</div>
+                            <div className="main__infoBlockText">
+                                Собеседование в обход долгой очереди
+                            </div>
+                        </div>
+                        <div className="main__infoDiv">
+                            <div className="main__Clipboard">
+                                <Image src={clipboard} alt="clipboard" />
+                            </div>
+                            <div className="main__infoBlockTitle">AI</div>
+                            <div className="main__infoBlockText">
+                                Разработанный ИИ-алгоритм для подачи документов
+                            </div>
+                        </div>
+                        <div className="main__infoDiv">
+                            <div className="main__Clipboard">
+                                <Image src={clipboard} alt="clipboard" />
+                            </div>
+                            <div className="main__infoBlockTitle">FLEXIBLE</div>
+                            <div className="main__infoBlockText">
+                                Оплата Госпошлины США с российской карты
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <Image src={site} alt="site" className="main__site" />
             </main>
             <footer className="footer">
                 <div className="footer__divText1">
