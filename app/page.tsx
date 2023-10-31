@@ -30,13 +30,17 @@ export default function Home() {
                             <text className="link">Чат поддержки</text>
                         </Link>
                     </div>
-                    <div className="header__enterText link">
-                        <text>Вход</text>
+                    <Link href="/authorization" className="link_btn">
+                        <div className="header__enterText link">
+                            <text>Вход</text>
+                        </div>
+                    </Link>
+                </div>
+                <Link href="/authorization" className="link_btn">
+                    <div className="header__button link">
+                        <text>Подать заявление</text>
                     </div>
-                </div>
-                <div className="header__button link">
-                    <text>Подать заявление</text>
-                </div>
+                </Link>
             </header>
             <main className="main">
                 <div className="main__topDiv">
@@ -62,10 +66,12 @@ export default function Home() {
                             </text>
                         </div>
                     </div>
-                    <div className="main__topButton link">
-                        <text>Подать заявление</text>
-                        <Image src={arrow} alt="arrow" />
-                    </div>
+                    <Link href="/authorization" className="link_btn">
+                        <div className="main__topButton link">
+                            <text>Подать заявление</text>
+                            <Image src={arrow} alt="arrow" />
+                        </div>
+                    </Link>
                 </div>
                 <Image src={bg} alt="bg" className="main__bg" />
                 <div className="main__info">
