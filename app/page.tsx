@@ -188,7 +188,7 @@ export default function Home() {
                                     <Image
                                         src={chevron}
                                         alt="chevron"
-                                        className="chevron"
+                                        className="chevron link"
                                     />
                                 </summary>
                                 <div>
@@ -214,7 +214,7 @@ export default function Home() {
                                     <Image
                                         src={chevron}
                                         alt="chevron"
-                                        className="chevron"
+                                        className="chevron link"
                                     />
                                 </summary>
                                 <div>
@@ -232,7 +232,7 @@ export default function Home() {
                                     <Image
                                         src={chevron}
                                         alt="chevron"
-                                        className="chevron"
+                                        className="chevron link"
                                     />
                                 </summary>
                                 <div>
@@ -251,7 +251,7 @@ export default function Home() {
                                     <Image
                                         src={chevron}
                                         alt="chevron"
-                                        className="chevron"
+                                        className="chevron link"
                                     />
                                 </summary>
                                 <div>
@@ -269,7 +269,7 @@ export default function Home() {
                                     <Image
                                         src={chevron}
                                         alt="chevron"
-                                        className="chevron"
+                                        className="chevron link"
                                     />
                                 </summary>
                                 <div>
@@ -289,14 +289,14 @@ export default function Home() {
                             <div className="main__questionsText">
                                 Напишите нам в телеграм
                             </div>
-                            <div className="main__questionsButton">
-                                <Image src={vectorTg} alt="vectorTg" />
-                                <text className="main__questionsButtonText">
-                                    <Link href="https://t.me/Frowning_Cat">
+                            <Link href="https://t.me/Frowning_Cat">
+                                <div className="main__questionsButton link">
+                                    <Image src={vectorTg} alt="vectorTg" />
+                                    <text className="main__questionsButtonText">
                                         Чат поддержки
-                                    </Link>
-                                </text>
-                            </div>
+                                    </text>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
