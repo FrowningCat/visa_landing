@@ -118,7 +118,7 @@ a {
         display: grid;
         gap: 40px;
         margin-top: 125px;
-        margin-left: 208px;
+        margin-left: 13%;
     }
     &__Clipboard {
         display: flex;
@@ -184,7 +184,8 @@ a {
         display: grid;
         gap: 61px;
         width: 1024px;
-        margin-left: 208px;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 115px;
     }
     &__infoTitle {
@@ -240,14 +241,13 @@ a {
         background-color: $mainBackgroundColor;
         position: relative;
         margin-top: -35px;
-        height: 2035px;
     }
     &__submissionOfBocuments {
         display: grid;
         position: absolute;
         width: 556px;
         gap: 68px;
-        margin-left: 208px;
+        margin-left: 15%;
         margin-top: 25px;
     }
     &__submissionOfBocumentsStages {
@@ -282,17 +282,58 @@ a {
         color: $additionalTextColor;
     }
     &__iPhone {
-        margin-left: 925px;
-        margin-top: 50px;
+        margin-left: 65%;
+        margin-top: 75px;
         pointer-events: none;
+    }
+    &__faq {
+        margin-top: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1024px;
+        display: grid;
+        gap: 50px;
+    }
+    &__faqDetails {
+        display: grid;
+        gap: 16px;
+    }
+    details {
+        background-color: $headerBackgroundColor;
+        border-radius: 12px;
+        padding: 24px;
+        font-size: $mainWeightText;
+        line-height: $explanatoryLineHeightText;
+        font-weight: $additionalSizeText;
+        color: $additionalTextColor;
+        font-family: $additionalFontFamily;
+    }
+    details > div {
+        padding-top: 18px;
+    }
+    summary {
+        font-size: $headingWeightText;
+        line-height: $explanatoryLineHeightText;
+        font-weight: $titleSizeText;
+        color: $mainTextColor;
+        font-family: $mainFontFamily;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .chevron {
+        height: 28px;
+        width: 28px;
     }
     &__questions {
         display: grid;
         gap: 40px;
-        margin-left: 510px;
-        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 200px;
         width: 420px;
         justify-content: center;
+        padding-bottom: 200px;
     }
     &__questionsMain {
         display: grid;
@@ -302,10 +343,12 @@ a {
         margin: auto;
     }
     &__questionsText {
+        margin: auto;
         font-size: $headingWeightText;
         line-height: $headingLineHeightText;
-        font-weight: $additionalSizeText;
+        font-weight: $titleSizeText;
         color: $additionalTextColor;
+        letter-spacing: -1px;
     }
     &__questionsButton {
         align-items: center;
