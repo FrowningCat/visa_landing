@@ -474,3 +474,29 @@ a {
         background-color: $mainBackgroundColor;
     }
 }
+
+.registration {
+    display: flex;
+    &__div {
+        display: grid;
+        height: 785px;
+        width: 369px;
+        gap: 30px;
+        margin-top: 88px;
+        margin-left: 106px;
+    }
+
+    &__inputAndButt {
+        display: grid;
+        height: 620px;
+        gap: 40px;
+    }
+    &__input {
+        height: 522px;
+        display: grid;
+        gap: 30px;
+    }
+    input::placeholder {
+        color: $buttonColor;
+    }
+}

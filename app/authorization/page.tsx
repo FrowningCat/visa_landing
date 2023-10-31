@@ -17,7 +17,7 @@ export default function Authorization() {
                         <div className="authorization__textLink">
                             Если вы не зарегистрированы, вы можете
                             <Link
-                                href="/authorization"
+                                href="/authorization/registration"
                                 className="authorization__textHref"
                             >
                                 {' '}

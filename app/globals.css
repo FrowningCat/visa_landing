@@ -440,4 +440,32 @@ a {
 .authorization__button:hover {
   cursor: pointer;
   background-color: #dfe8eb;
+}
+
+.registration {
+  display: flex;
+}
+.registration__div {
+  display: grid;
+  height: 785px;
+  width: 369px;
+  gap: 30px;
+  margin-top: 88px;
+  margin-left: 106px;
+}
+.registration__inputAndButt {
+  display: grid;
+  height: 620px;
+  gap: 40px;
+}
+.registration__input {
+  height: 522px;
+  display: grid;
+  gap: 30px;
+}
+.registration input::-moz-placeholder {
+  color: #0052b4;
+}
+.registration input::placeholder {
+  color: #0052b4;
 }/*# sourceMappingURL=globals.css.map */
